@@ -1,0 +1,20 @@
+<h3>View Employee Details</h3>
+<div class="mt-4">
+  <div>
+    <label><b>Id: </b></label> {{ employee.id }}
+  </div>
+  <div class="mt-2">
+    <label><b>First Name: </b></label> {{ employee.firstName }}
+  </div>
+  <div class="mt-2">
+    <label><b>Last Name: </b></label> {{ employee.lastName }}
+  </div>
+  <div class="mt-2">
+    <label><b>Email Id: </b></label> {{ employee.emailId }}
+  </div>
+  <div class="mt-4">
+    <button class="btn btn-info" (click)="goToEmployeeListPage()">
+      Back
+    </button>
+  </div>
+</div>
